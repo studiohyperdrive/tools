@@ -1,4 +1,4 @@
-# Studio Hyperdrive: Tools (_shd_tools_)
+# Studio Hyperdrive: Tools (_tools_)
 
 ## General
 
