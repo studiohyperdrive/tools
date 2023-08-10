@@ -1,0 +1,52 @@
+{
+	"root": true,
+	"ignorePatterns": ["**/*"],
+	"plugins": ["@nx", "unused-imports"],
+	"overrides": [
+		{
+			"files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": [
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:import/recommended"
+      ],
+      "plugins": [
+        "import",
+        "prettier",
+        "@typescript-eslint"
+      ],
+			"rules": {
+        "prettier/prettier": "error",
+				"@nx/enforce-module-boundaries": [
+					"error",
+					{
+						"enforceBuildableLibDependency": true,
+						"allow": [],
+						"depConstraints": [
+							{
+								"sourceTag": "*",
+								"onlyDependOnLibsWithTags": ["*"]
+							}
+						]
+					}
+				],
+        "@typescript-eslint/no-inferrable-types": "off",
+        "import/order": "error",
+        "import/no-unresolved": "error"
+      }
+		},
+		{
+			"files": ["*.ts", "*.tsx"],
+			"extends": [
+        "plugin:@nx/typescript",
+        "plugin:import/typescript"
+      ],
+			"rules": {}
+		},
+		{
+			"files": ["*.js", "*.jsx"],
+			"extends": ["plugin:@nx/javascript"],
+			"rules": {}
+		}
+	]
+}
