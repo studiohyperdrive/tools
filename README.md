@@ -4,7 +4,10 @@
 
 This repo contains general usage libraries for shd Angular projects. Those libraries are:
 
--   utils (`@studiohyperdrive/utils`) :
+-   testing (`@studiohyperdrive/testing`) :
+  -   testing utilities
+
+- utils (`@studiohyperdrive/utils`) :
   -   general purpose utilities
 
 -   rxjs-utils (`@studiohyperdrive/rxjs-utils`):
