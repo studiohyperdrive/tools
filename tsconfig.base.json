@@ -17,7 +17,7 @@
 		"skipDefaultLibCheck": true,
 		"baseUrl": ".",
 		"paths": {
-      "@studiohyperdrive/regex-common": ["packages/regex-common/src/index.ts"],
+			"@studiohyperdrive/regex-common": ["packages/regex-common/src/index.ts"],
 			"@studiohyperdrive/rxjs-utils": ["packages/rxjs-utils/src/index.ts"],
 			"@studiohyperdrive/testing": ["packages/testing/src/index.ts"],
 			"@studiohyperdrive/utils": ["packages/utils/src/index.ts"]
