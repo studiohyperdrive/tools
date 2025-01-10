@@ -1,5 +1,11 @@
 # Studio Hyperdrive: Tools (_tools_)
 
+> [!IMPORTANT]  
+> This repository has been archived as of January 2025, but the package is still being maintained. It has been moved to a new monorepo [here (hyperdrive-opensource)](https://github.com/studiohyperdrive/hyperdrive-opensource). Issues, Pull Requests, and Discussions can be opened there and will be followed up by the same core team that maintained this repo.
+> 
+> The guides below are deprecated and do not guarantee proper functionality. The most up-to-date documentation of this repository can be found in [the documentation](https://open-source.studiohyperdrive.be/docs).
+
+
 ## General
 
 This repo contains general usage libraries for shd Angular projects. Those libraries are:
